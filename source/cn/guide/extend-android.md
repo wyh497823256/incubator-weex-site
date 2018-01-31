@@ -139,7 +139,7 @@ JS 调用如下：
 	</script>
 	```
 
-注:工程要添加依赖 `compile 'com.squareup.picasso:picasso:2.5.2'`
+
 
 ## Adapter扩展
 
@@ -185,6 +185,7 @@ public class ImageAdapter implements IWXImgLoaderAdapter {
   }
 }
 ```
+注:工程要添加依赖 `compile 'com.squareup.picasso:picasso:2.5.2'`
 #### SDK混淆规则
 若要在APP中使用混淆，请在相应的配置文件中添加如下规则：
 
